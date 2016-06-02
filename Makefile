@@ -11,8 +11,8 @@ build:
 all: build
 
 install: build
-	@echo "Comying pngdefry"
-	@mv pngfy /bin/
+	@echo "Copying pngdefry"
+	@mv pngfy /usr/local/bin/
 	@echo "pngfy copied!"
 
 # vim:ft=make
